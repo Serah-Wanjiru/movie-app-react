@@ -8,3 +8,6 @@ img{
     object-fit: cover;
 
 }
+body{
+    background-color: grey;
+}

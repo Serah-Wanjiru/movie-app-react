@@ -1,4 +1,4 @@
-.Navbar {
+.Navigate {
     background-color: #000;
     height: 70px;
     width: 100%;
@@ -7,7 +7,7 @@
     left: 0;
     z-index: 100;
 }
-.nav {
+.navb {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@
     cursor: pointer;
 }
 .logo >span  {
-    color: rgb(255, 174, 0);
+    color: chartreuse;
 }
 .search {
     width: 200px;
@@ -30,7 +30,7 @@
     outline: 0;
     background-color: transparent;
     font-size: 16px;
-    color: #fff;
+    color:black;
     padding: 5px 500px 5px 25px;
     border-radius: 10px;
 }
@@ -46,11 +46,11 @@ li {
     cursor: pointer;
 }
 li:hover {
-    color: rgb(255, 174, 0);
+    color: greenyellow;
 }
   button {
-    background-color: rgb(255, 174, 0);
-    color: #fff;
+    background-color: red;
+    color: chartreuse;
     padding: 10px 20px;
     border: 0;
     outline: 0;
@@ -61,7 +61,7 @@ li:hover {
     background-color: black;
     color: #fff;
     padding: 10px 20px;
-    border: 1px solid rgb(255, 174, 0);
+    border: 1px solid red;
     outline: 0;
     cursor: pointer;
   }

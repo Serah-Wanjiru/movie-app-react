@@ -9,7 +9,7 @@ const CategoryButtons = ({ selectedCategory, handleCategoryChange }) => {
       >
         All
       </button>
-      {/* Add more buttons for other categories */}
+    
       <button
         className={selectedCategory === "28" ? "active" : "inactive"}
         onClick={() => handleCategoryChange("28")}
@@ -22,7 +22,7 @@ const CategoryButtons = ({ selectedCategory, handleCategoryChange }) => {
       >
         Comedy
       </button>
-      {/* Add more buttons for other categories */}
+     
     </div>
   );
 };

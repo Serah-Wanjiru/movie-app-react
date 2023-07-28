@@ -24,7 +24,6 @@ const MovieLists = () => {
     return <h1>Loading movies...</h1>;
   }
 
-  // Set the limit of movies to display
   const limit = 4;
   const limitedMovies = movies.slice(0, limit);
 
