@@ -6,7 +6,8 @@ try{
 const response = await fetch (`${BASE_URL}/3/discover/movie`,{
     method:'GET',
     headers:{
-        Authorization:`Bearer ${ACCESS_TOKEN}`
+        Authorization:`Bearer ${ACCESS_TOKEN}`,
+        'Content-Type':'application/json'
     }
 })
 const result = await response.json();

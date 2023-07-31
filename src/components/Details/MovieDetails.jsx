@@ -1,8 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom'; 
-import { getMovieDetails } from "../../../utils/utilities";
-
+import {getMovieDetails} from  "../utils/utilities"; 
 const IMAGE_BASE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
 
 const MovieDetail = () => {

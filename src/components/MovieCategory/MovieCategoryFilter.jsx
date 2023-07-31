@@ -1,5 +1,4 @@
 import React from "react";
-
 const CategoryFilter = ({ selectedCategory, handleCategoryChange }) => {
   const categories = [
     { id: "all", name: "All" },

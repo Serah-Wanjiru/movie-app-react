@@ -1,9 +1,10 @@
 
 import React, { useEffect, useState } from "react";
+// import { getMovies } from "../utils/utilities";
 import { getMovies } from "../../utils/utilities";
 import ImageContainer from "../../atoms/Image-container";
 import "./style.css";
-import CategoryFilter from "./MovieCategory/MovieCategoryFilter";
+import CategoryFilter from "../MovieCategory/MovieCategoryFilter";
 
 
 const MovieList = () => {
